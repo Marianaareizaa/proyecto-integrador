@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div class="nav">
+  
+  <nav class="title-icon">
+      <div class="img-logo">
+        <img src="img/Captura_de_pantalla_2023-05-10_164413-transformed.png" alt="logo">
+      </div>
+
+    
+        <div class="button-search">
+          <label id="search" for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+          <input type="search" class="search" name="search" placeholder="Buscar" >
+        </div>
+
+        <div class="button-card">
+         <button class="trolley" title="Carrito de compras">🛒</button>
+        </div>
+
+        <div class="nav-button">
+          <div class="links">
+            <ul>
+                <li><a  href="#/home" id="home" class="main-nav__link">INICIO</a></li>
+                <li><a href="#/about-us" id="about-us" class="main-nav__link">NOSOTROS</a></li>
+                <li><a  href="#/create" id="create" class="main-nav__link">ALTA</a></li>
+                <li><a  href="#/contact" id="contact" class="main-nav__link">CONTACTOS</a></li>
+              
+            </ul>          
+          </div>
+          <button class="burger-menu"><i class="fa-solid fa-bars"></i></button>
+        </div>
+       
+
+
+  
+    </nav>
+  
+</div>
+
+<section class="cart-modal-container">
+  <div class="close-table">
+    <button class="x" title="Cerrar">X</button>
+  </div>
+  
+  <table border="1">
+      <thead>
+      <tr>
+          <th colspan="2">PRODUCTO</th>
+          <th>PRECIO</th>
+          <th>CANT.</th>
+          <th>SUBTOTAL</th>
+          <th></th>
+      </tr>
+      </thead>
+
+      <tbody>
+         <tr>
+           <td><img src="img/products/Uno-Cartas-Basico---MATTEL.webp" alt="uno"></td>
+           <td>UNO: juego de cartas</td>
+           <td class="incremento">$15.000,00</td>
+           <td>2</td>
+           <td class="total">$30.000,00</td>
+           <td><button type="reset" class="trash" title="Eliminar">🗑️</button></td>
+         </tr>
+    
+        <tr>
+          <td><img src="img/products/juego-parques-imantado-doble-8-y-6-puestos-50x50cm-finca-D_NQ_NP_791301-MCO31043891092_062019-F.jpg" alt="parques"></td>
+          <td>Parqués doble 8</td>
+          <td>$50.000,00</td>
+          <td>1</td> 
+          <td>$50.000,00</td>
+          <td><button class="trash" title="Eliminar">🗑️</button></td>
+        </tr>
+
+        <tr>
+          <td><img class="naipes" src="img/products/naipes-de-poker-x2-juego-de-mesa-12x9cm-D_NQ_NP_614401-MLU31246446982_062019-F.jpg" alt="naipe"></td>
+          <td>Cartas Naipe Poker</td>
+          <td>$15.000,00</td>
+          <td>1</td>
+          <td>$15.000,00</td>
+          <td><button class="trash" title="Eliminar">🗑️</button></td>
+        </tr>
+
+        <tr>
+          <td><img src="img/products/juego-de-ajedrez-profesional-triple-peso-tablero-negro-D_NQ_NP_172721-MLM20846868692_082016-F.jpg" alt="ajedrez"></td>
+          <td>Set de Ajedrez</td>
+          <td>$36.000,00</td>
+          <td>3</td>
+          <td>$108.000,00</td>
+          <td><button class="trash" title="Eliminar">🗑️</button></td>
+        </tr>
+
+        <tr>
+          <td><img src="img/products/juego-de-mesa-tio-rico-distributiv-35004-30150-default-1.jpg" alt="tio rico"></td>
+          <td>Tio Rico</td>
+          <td>$70.000,00</td>
+          <td>2</td>
+          <td>$140.000,00</td>
+          <td><button class="trash" title="Eliminar">🗑️</button></td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="4"></td>
+          <td>$343.000,00</td>
+          <td></td>
+        </tr>
+      </tfoot>
+  
+
+      
+  </table>
+
+ 
+
+</section>
+
+  
+    <section class="container"></section>
+
+
+    <footer>
+      <div class="ul-li">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about-us.html">Nosotros</a></li>
+          <li><a href="create.html">Alta</a></li>
+          <li><a href="contact.html">Contactos</a></li>
+          
+      </ul>
+      </div>
+
+     
+
+      <div class="services-networks">
+      <div class="services">
+          <p>Servicios:</p>
+
+          <ul>
+            <li><a href="tel:+573045543794">304 554 37 94</a></li>
+            <li><a href="mailto:areizamariana24@gmail.com">areizamariana24@gmail.com</a></li>
+          </ul>
+
+
+
+      </div>
+
+      <div class="networks">
+        <p>Redes Sociales:</p>
+        <a target="_blank" href="https://wa.link/e9za4q"><i class="fa-brands fa-whatsapp" title="WhatsApp"></i></a>
+        <a target="_blank" href="https://instagram.com/mariana_lashbeauty?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram" title="Instagram"></i></a> 
+        <a target="_blank" href="https://youtube.com/@marianaareiza2280"><i class="fa-brands fa-youtube" title="Youtube"></i></a>
+       <a target="_blank" href="https://twitter.com/areizamariana24?   t=UlTYmgSc3EGTM7c6VdaalA&s=09"><i class="fa-brands fa-twitter" title="Twitter"></i></a> 
+
+       <div class="politics-and-help">
+       <p>Politica y Seguridad</p>
+       <p>Ayuda</p>
+       </div>
+    
+      </div>
+
+      
+
+      <div class="google">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3348259668073!2d-75.57136342667299!3d6.350678225150966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442fb5e6eb3a55%3A0x5caf598b6ed57543!2sCra.%2067%20%2372-60%2C%20San%20Gabriel%2C%20Bello%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1683923269410!5m2!1ses-419!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+    
+    </div>
+
+    <div class="line"></div>
+
+    <div class="owner">
+      <p>Proyecto integrador: Juguetería cósmica</p>
+      <p>Mariana Areiza López</p>
+      <p>Copyright &copy; Juguetería cósmica 2023</p>
+    </div>
+
+    </footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

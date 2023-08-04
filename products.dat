@@ -1,0 +1,123 @@
+[
+    {
+        "image": "./img/products/Monopoly.jpg",
+        "name": "Monopoly",
+        "price": "$84.915,00",
+        "description": "¡Gana la mayor cantidad de dinero y bienes mientras logras que tus contrincantes se vayan en banca rota!"
+        },
+    {
+        "image": "./img/products/adivina_quien_es.jpg",
+        "name": "Adivina Quién Es",
+        "price": "$99.900,00",
+        "description": "¡Adivina el personaje misterioso del otro jugador antes de que este lo haga!."
+    },
+    {
+        "image": "./img/products/bingo.jpg",
+        "name": "Bingo",
+        "price": "$82.600,00",
+        "description": "¡Diviértete jugando con tus amigos o familia al clásico de los juegos de lotería y gana al decir BINGO!."
+    },
+    {
+        "image": "./img/products/bop_it_micro_series.webp",
+        "name": "Bop it",
+        "price": "$85.000,00",
+        "description": "¡El grandioso juego Bop It donde podrás a prueba tu agilidad mental girando y estirando!."
+    },
+    {
+        "image": "./img/products/connect_4.webp",
+        "name": "Connect 4",
+        "price": "$73.718,00",
+        "description": "¡Sé el jugador con la mejor estrategia y gana. Sé el primer jugador que logre juntar 4 fichas en una línea horizontal, vertical o diagonal!."
+    },
+    {
+        "image": "./img/products/cubo_cubik.jpg",
+        "name": "Cubo Rubik",
+        "price": "$14.400,00",
+        "description": "¡Desafía tu mente con este maravilloso cubo y pon cada color en su lugar!."
+    },
+    {
+        "image": "./img/products/domino_creations.jpg",
+        "name": "Dominó creations",
+        "price": "$135.339,00",
+        "description": "¡Ten una explosión y aprende a hacer arte Dominó con este juego de 100 Dominó Y accesorios de Lily Hevesh!."
+    },
+    {
+        "image": "./img/products/domino-paquete.jpg",
+        "name": "Dominó",
+        "price": "$20.990,00",
+        "description": "¡Diviértete con este juego, coloca cada ficha correspondiente y sé el primero en ganar!."
+    },
+    {
+        "image": "./img/products/jenga.jpg",
+        "name": "Jenga",
+        "price": "$85.500,00",
+        "description": "¡Pon a prueba tus nervios y no dejes caer ningún bloque de madera!."
+    },
+    {
+        "image": "./img/products/juego-de-ajedrez-profesional-triple-peso-tablero-negro-D_NQ_NP_172721-MLM20846868692_082016-F.jpg",
+        "name": "Ajedrez",
+        "price": "$36.000,00",
+        "description": "¡Enfrenta a otro jugador y activa tu mentalidad para derrivar sus fichas!."
+    },
+    {
+        "image": "./img/products/juego-de-mesa-tio-rico-distributiv-35004-30150-default-1.jpg",
+        "name": "Tío Rico",
+        "price": "$70.000,00",
+        "description": "¡Sé rico, muy rico tanto y más que Tío Rico, con propiedades, casas y castillos, buena renta y muchos pesos en efectivo!."
+    },
+    {
+        "image": "./img/products/juego-parques-imantado-doble-8-y-6-puestos-50x50cm-finca-D_NQ_NP_791301-MCO31043891092_062019-F.jpg",
+        "name": "Parqués",
+        "price": "$50.000,00",
+        "description": "¡Diviértete con tu familia y amigos y sé el primero en hacer llegar todas tus fichas!."
+    },
+    {
+        "image": "./img/products/laberinto_cubiko.jpg",
+        "name": "Laberinto Cubiko",
+        "price": "$17.900,00",
+        "description": "¡Pon a Prueba Tus Habilidades, Mientras Desarrollas tu Concentración, tu Memoria y la Relación Espacial Con Este Increíble y Divertido Juego!."
+    },
+    {
+        "image": "./img/products/naipes-de-poker-x2-juego-de-mesa-12x9cm-D_NQ_NP_614401-MLU31246446982_062019-F.jpg",
+        "name": "Naipes",
+        "price": "$15.000,00",
+        "description": "¡Pon a prueba tus estrategias y sé el primero en ganar en cada modalidad de juego!."
+    },
+    {
+        "image": "./img/products/rompecabezas.webp",
+        "name": "Rompecabezas",
+        "price": "$67.900,00",
+        "description": "¡Pon a prueba tu mentalidad y forma una figura combinando correctamente las partes de esta!."
+    },
+    {
+        "image": "./img/products/rummy.jpg",
+        "name": "Rummy",
+        "price": "$89.900,00",
+        "description": "¡Combina tu agilidad mental y matemática con el factor suerte en este maravilloso juego!."
+    },
+    {
+        "image": "./img/products/solitario-juego-de-madera.jpg",
+        "name": "Solitario Clásico",
+        "price": "$75.928,00",
+        "description": "¡Pon a prueba tu desarrollo de la inteligencia, el pensamiento estratégico y lógico con este clásico!."
+    },
+    {
+        "image": "./img/products/stop.jpg",
+        "name": "Stop",
+        "price": "$86.500,00",
+        "description": "¡Piensa rápido cada palabra, escribe y gana!."
+    },
+    {
+        "image": "./img/products/twister.jpg",
+        "name": "Twister",
+        "price": "$99.900,00",
+        "description": "¡Controla tu equilibrio y pon a prueba tu habilidad fisica con tus manos y pies!."
+    },
+    {
+        "image": "./img/products/Uno-Cartas-Basico---MATTEL.webp",
+        "name": "Uno",
+        "price": "$15.000,00",
+        "description": "¡Saca tu mayor estrategia y sé el primero en gritar UNO!."
+    }
+
+]

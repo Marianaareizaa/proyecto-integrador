@@ -1,0 +1,159 @@
+   
+    <form id="form" class="form">
+        <fieldset>
+         
+        <legend><strong>PEDIDOS 💻</strong></legend>
+           
+            
+                <div class="label-create">
+                  
+                  <div class="group-display">
+                    <div class="group-border">
+                        <div class="form-group">
+                          <input type="text" name="name" id="name" class="form-input" minlength="2" maxlength="70" placeholder=" " required>
+                          <label for="name" class="form-label">Nombre:</label>
+                        </div>
+                    </div>
+                  
+                    <div class="group-border">
+                      <label for="brand">Marca:</label>
+                      <select name="brand" id="brand" required size="1">
+                        <option value="1">--Seleccionar--</option>
+                        <option value="2">Asmodee</option>
+                        <option value="3">Hasbro</option>
+                        <option value="4">Mattel</option>
+                        <option value="5">Ravensburguer</option>
+                        <option value="6">Clementoni</option>
+                        <option value="7">Disney</option>
+                        <option value="8">Cefa Toys</option>
+                        <option value="9">Diset</option>
+                        <option value="10">Devir</option>
+                        <option value="11">Falomir</option>
+                      </select>
+                    </div>
+                  </div>
+                    
+                 
+          
+                  <div class="group-display">
+                    <div class="group-border">
+                      <label for="category">Categoria:</label>
+                      <select name="category" id="category" class="input-category" required size="1">
+                          <option value="1">--Seleccionar--</option>
+                          <option value="2">Contemporaneos</option>
+                          <option value="3">Cooperativos</option>
+                          <option value="4">Clásicos</option>
+                          <option value="5">De lógica</option>
+                          <option value="6">Didácticos</option>
+                          <option value="7">De azar</option>
+                          <option value="8">Educativos</option> 
+                          <option value="9">Modernos</option>
+                          <option value="10">Recreativos</option>
+                          <option value="11">Tradicionales</option>
+                      </select>
+                    </div>
+
+                    <div class="group-border">
+                      <div class="form-group">
+                        <input type="number" name="price" id="price" class="form-input" placeholder=" " required>
+                        <label for="price" class="form-label">Precio:</label>
+                      </div>
+                    </div>
+                  </div>
+
+                    <div class="border-age">
+                      <div class="group-select">
+                        <label for="range">Rango:</label>
+                        <select name="range" id="range" class="input-range" required>
+                          <option value="1">--Seleccionar--</option>
+                          <option value="months">Meses</option>
+                          <option value="ages">Años</option>
+                        </select>
+                      </div>
+                    
+      
+                      <div class="form-group group-age">
+                        <input type="number" name="age" id="age" min="0" max="100" class="form-input age" placeholder=" " prequired>
+                        <label for="age" class="form-label">Edad Desde:</label>
+                      </div> 
+                       
+                      <div class="form-group group-age">
+                        <input type="number" name="age2" id="age2" min="0" max="100" class="form-input age until" placeholder=" " required>
+                        <label for="age2" class="form-label until ">Edad Hasta:</label> 
+                      </div>
+                     
+                    </div>         
+                        
+                  <div class="group-display"> 
+                    <div class="group-border">
+                      <div class="form-group">
+                        <input type="number" min="1" max="10" name="stock" id="stock" class="form-input" placeholder=" " required>
+                        <label for="stock" class="form-label">Stock:</label>
+                      </div>  
+                    </div>
+
+                    <div class="group-border">
+                      
+                        <label for="file">Foto:</label>
+                        <input class="file" accept="image/*" type="file" name="file" id="file" class="input-photo" required>
+                        <input type="button" value="Subir Archivo" class="buttonn" class="input-photo"
+                        onclick="document.getElementById('file').click()">
+                        
+                      
+                    </div>    
+                    
+                  </div>  
+                     
+                   
+                  <div class="border-description-short">
+                    <label for="shortdescription" class="title-description">Descripción Corta:</label>
+                    <textarea name="shortdescription" id="shortdescription" cols="30" rows="5" minlength="10" maxlength="200"></textarea>
+
+                  </div>  
+
+
+                
+                  <div class="border-description-largue">
+                    
+                       <label for="largedescription" class="title-description">Descripción Larga:</label>
+                       <textarea name="largedescription" id="largedescription" cols="30" rows="10" minlength="10" maxlength="2000"></textarea>
+                    
+                  </div>   
+
+
+
+                  <div class="send">
+                    <label for="freeshipping">Envio sin cargo:</label>
+       
+                          <div class="yes-or-no">
+                            <label class="type-text" for="yes">
+                                <input checked type="radio" id="yes" value="yes" name="seleccion">
+                                Sí
+                            </label>
+                            
+                            <div class="none">
+                              <label class="type-text" for="no">
+                                  <input type="radio" id="no" value="no" name="seleccion">
+                                  No
+                              </label>
+                            </div>
+                          </div>
+                          
+                          
+                  </div>       
+                       
+                     
+                
+                  
+
+
+                     <input type="submit" value="enviar" id="btn" disabled>
+               </div>
+           
+           
+       
+       </fieldset>
+       
+    </form>
+
+    <section class="products-table"></section>
